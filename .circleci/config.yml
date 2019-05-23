@@ -2,8 +2,8 @@ version: 2
 jobs:
 
   build:
-    - yarn install
-    - yarn build
+    - run: yarn install
+    - run: yarn build
 
   deploy:
     docker:
